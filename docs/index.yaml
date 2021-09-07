@@ -9,6 +9,6 @@ entries:
     name: hub-chart
     type: application
     urls:
-    - https://zcubbs.github.io/hub-chart/hub-chart-0.1.0.tgz
+    - hub-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2021-09-07T20:39:14.2896477+02:00"
