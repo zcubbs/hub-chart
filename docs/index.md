@@ -1,7 +1,6 @@
 ---
 layout: default
-title: z/Hub
-subtitle: Helm Chart Repo
+title: z/Hub - Helm Chart Repo
 food: pears
 ---
 
