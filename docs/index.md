@@ -1,5 +1,6 @@
 ---
 layout: default
+title: z/Hub Helm Repo
 food: pears
 ---
 
