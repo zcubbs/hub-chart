@@ -1,0 +1,5 @@
+name: z-hub
+domain: hub.localhost
+deployment:
+  image: ghcr.io/zcubbs/hub
+  tag: main
