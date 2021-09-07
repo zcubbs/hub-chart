@@ -1,6 +1,3 @@
----
-layout: default
----
 # z/Hub Repo
 
 This is a helm chart repository for z/Hub.
