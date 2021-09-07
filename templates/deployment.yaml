@@ -25,6 +25,12 @@ spec:
           env:
             - name: CONFIG_PATH
               value: /build/apiserver/config.yaml
+            {{- if .Values.app }}
+            {{- if .Values.app.title }}
+            - name: APP_TITLE
+              value: {{ .Values.app.title }}
+            {{- end}}
+            {{- end}}
           volumeMounts:
             - mountPath: /build/apiserver
               name: {{ .Values.name }}-config-volume

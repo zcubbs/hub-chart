@@ -5,37 +5,5 @@ kind: ConfigMap
 metadata:
   name: {{ .Values.name }}-config
 data:
-  config.yaml: |
-    tags:
-      - caption: Test tag 1
-        links:
-          - caption: Test Link
-            link: "https://google.com"
-
-          - caption: Test Link
-            link: "https://google.com"
-
-          - caption: Test Link
-            link: "https://google.com"
-
-          - caption: Test Link
-            link: "https://google.com"
-      - caption: Test tag 2
-      - caption: Test tag 3
-      - caption: Test tag 4
-      - caption: Test tag 5
-        links:
-          - caption: Test Link 1
-            link: "https://google.com"
-
-          - caption: Test Link 2
-            link: "https://google.com"
-
-          - caption: Test Link 3
-            link: "https://google.com"
-
-          - caption: Test Link 4
-            link: "https://google.com"
-
-          - caption: Test Link 5
-            link: "https://google.com"
+  config.yaml: |-
+  {{ .Values.config | indent 4 }}

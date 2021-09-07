@@ -1,5 +1,21 @@
 name: z-hub
-domain: hub.localhost
+ingress:
+  host: hub.localhost
 deployment:
   image: ghcr.io/zcubbs/hub
   tag: main
+app:
+  title: z/HuB
+config: |-
+  tags:
+    - caption: Favorites
+      links:
+        - caption: Google
+          link: "https://google.com"
+        - caption: Youtube
+          link: "https://youtube.com"
+    - caption: Sports
+      links:
+        - caption: Bleacher Report
+          link: "https://bleacherreport.com/fc-barcelona"
+    - caption: Gaming
