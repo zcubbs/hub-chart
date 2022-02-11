@@ -3,7 +3,7 @@ entries:
   hub-chart:
   - apiVersion: v3
     appVersion: 1.16.0
-    created: "2022-02-11T20:16:47.9720751+01:00"
+    created: "2022-02-11T21:54:20.0479385+01:00"
     description: A Helm chart for Kubernetes
     digest: b8917414e378a2441b7636526d98ee83e1d61673a07070086d26de61ef870793
     name: hub-chart
@@ -13,8 +13,18 @@ entries:
     version: 0.1.0
   hub-chart-v2:
   - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2022-02-11T21:54:20.04851+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 82c95366b369a397a2ac130d5f004c603fbafde3c9ab65adf89e26872325bd3f
+    name: hub-chart-v2
+    type: application
+    urls:
+    - hub-chart-v2-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-11T20:16:47.9725874+01:00"
+    created: "2022-02-11T21:54:20.04851+01:00"
     description: A Helm chart for Kubernetes
     digest: bbddb9838de69db3c1cd2d63b38781b823fa8cf7b3923be8eb47c172a669c681
     name: hub-chart-v2
@@ -22,4 +32,4 @@ entries:
     urls:
     - hub-chart-v2-0.1.1.tgz
     version: 0.1.1
-generated: "2022-02-11T20:16:47.9720249+01:00"
+generated: "2022-02-11T21:54:20.0479385+01:00"

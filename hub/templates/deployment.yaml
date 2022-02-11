@@ -30,6 +30,10 @@ spec:
             - name: APP_TITLE
               value: {{ .Values.app.title }}
             {{- end}}
+            {{- if .Values.app.disclaimer }}
+            - name: APP_DISCLAIMER
+              value: {{ .Values.app.disclaimer }}
+            {{- end}}
             {{- end}}
           volumeMounts:
             - mountPath: /build/apiserver
