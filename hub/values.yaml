@@ -2,20 +2,22 @@ name: z-hub
 ingress:
   host: hub.localhost
 deployment:
-  image: ghcr.io/zcubbs/hub
+  image: ghcr.io/zcubbs/hub-v2
   tag: main
 app:
   title: z/HuB
 config: |-
-  tags:
-    - caption: Favorites
-      links:
-        - caption: Google
-          link: "https://google.com"
-        - caption: Youtube
-          link: "https://youtube.com"
-    - caption: Sports
-      links:
-        - caption: Bleacher Report
-          link: "https://bleacherreport.com/fc-barcelona"
-    - caption: Gaming
+  groups:
+    - caption: All
+      tags:
+        - caption: Favorites
+          links:
+            - caption: Google
+              link: "https://google.com"
+            - caption: Youtube
+              link: "https://youtube.com"
+        - caption: Sports
+          links:
+            - caption: Bleacher Report
+              link: "https://bleacherreport.com/fc-barcelona"
+        - caption: Gaming
