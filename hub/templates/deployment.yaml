@@ -9,6 +9,7 @@ spec:
   selector:
     matchLabels:
       app: {{ .Values.name }}
+  revisionHistoryLimit: 0
   template:
     metadata:
       annotations: 
