@@ -10,8 +10,4 @@ food: pears
 
 ### Install
 
-`helm upgrade --install hub hub-chart/hub-chart`
-
-### Disclaimer
-
-Assumes you are running Traefik v2+ for IngressRoutes.
+`helm upgrade --install hub hub-chart/hub-chart-v2`

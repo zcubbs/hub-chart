@@ -35,6 +35,10 @@ spec:
               value: {{ .Values.app.disclaimer }}
             {{- end}}
             {{- end}}
+            {{- if .Values.extraEnv }}
+            {{- include "common.tplvalues.render" (dict "value" .Values.extraEnv "context" $) | nindent 12 }}
+            {{- end }}
+
           volumeMounts:
             - mountPath: /build/apiserver
               name: {{ .Values.name }}-config-volume
