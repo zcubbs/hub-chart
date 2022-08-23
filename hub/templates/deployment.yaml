@@ -24,8 +24,6 @@ spec:
           ports:
             - containerPort: 8000
           env:
-            - name: CONFIG_PATH
-              value: /build/apiserver/config.yaml
             {{- if .Values.app }}
             {{- if .Values.app.title }}
             - name: APP_TITLE
@@ -41,7 +39,7 @@ spec:
             {{- end }}
 
           volumeMounts:
-            - mountPath: /build/apiserver
+            - mountPath: /app
               name: {{ .Values.name }}-config-volume
           {{- if .Values.deployment.resources }}
           resources:
