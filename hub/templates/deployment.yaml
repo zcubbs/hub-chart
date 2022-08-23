@@ -39,7 +39,8 @@ spec:
             {{- end }}
 
           volumeMounts:
-            - mountPath: /app
+            - mountPath: /app/config.yaml
+              subPath: "config.yaml"
               name: {{ .Values.name }}-config-volume
           {{- if .Values.deployment.resources }}
           resources:
