@@ -1,8 +1,8 @@
-name: z-hub
+name: hub
 ingress:
   host: hub.localhost
 deployment:
-  image: ghcr.io/zcubbs/hub-v2
+  image: ghcr.io/zcubbs/hub
   tag: main
 app:
   title: z/HuB
