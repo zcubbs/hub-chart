@@ -3,7 +3,17 @@ entries:
   hub-chart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-08-23T15:10:49.3039553+02:00"
+    created: "2022-08-23T17:49:43.0309125+02:00"
+    description: Hub - A Landing dashboard
+    digest: a995d26b3429c8cb2e3a61215160d3c649c63e6e118f80e797fa693bc8595db1
+    name: hub-chart
+    type: application
+    urls:
+    - hub-chart-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2022-08-23T17:49:43.0299096+02:00"
     description: Hub - A Landing dashboard
     digest: f42d12b8d03ffc9f5841888a91df0d39749464ced89c6e600186976f1738c7ea
     name: hub-chart
@@ -13,7 +23,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-08-23T15:10:49.303413+02:00"
+    created: "2022-08-23T17:49:43.0299096+02:00"
     description: Hub - A Landing dashboard
     digest: 76c1080a3d4a0c3a151bd2f142e3acb8e9e19b9ac8a97ddd9413dde63cae1b82
     name: hub-chart
@@ -23,7 +33,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-08-23T15:10:49.303413+02:00"
+    created: "2022-08-23T17:49:43.0299096+02:00"
     description: Hub - A Landing dashboard
     digest: 73cf58bab4e59531bbe05ec63c2d0e1822c1b887e7225289ff28a0e5aa7601bb
     name: hub-chart
@@ -33,7 +43,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2022-08-23T15:10:49.3028682+02:00"
+    created: "2022-08-23T17:49:43.0299096+02:00"
     description: Hub - A Landing dashboard
     digest: 41304dd9a9d4f309717b2e2cc4f273dacd425bc551bbe6afc80af6f17425dead
     name: hub-chart
@@ -43,7 +53,7 @@ entries:
     version: 0.1.5
   - apiVersion: v3
     appVersion: 1.16.0
-    created: "2022-08-23T15:10:49.3022963+02:00"
+    created: "2022-08-23T17:49:43.0288686+02:00"
     description: A Helm chart for Kubernetes
     digest: b8917414e378a2441b7636526d98ee83e1d61673a07070086d26de61ef870793
     name: hub-chart
@@ -54,7 +64,7 @@ entries:
   hub-chart-v2:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2022-08-23T15:10:49.3040472+02:00"
+    created: "2022-08-23T17:49:43.0309125+02:00"
     description: Hub - A Landing dashboard
     digest: 4eb605a207d2d32dbd1ca4ab24787975eb8f0c2d502a10cf73495ea3053d4fa1
     name: hub-chart-v2
@@ -64,7 +74,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2022-08-23T15:10:49.3040472+02:00"
+    created: "2022-08-23T17:49:43.0309125+02:00"
     description: Hub - A Landing dashboard
     digest: 16c33ce0adbe2ed349b391d11fa3619379c41145de6e713d93a73400b1298356
     name: hub-chart-v2
@@ -74,7 +84,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2022-08-23T15:10:49.3040472+02:00"
+    created: "2022-08-23T17:49:43.0309125+02:00"
     description: A Helm chart for Kubernetes
     digest: 82c95366b369a397a2ac130d5f004c603fbafde3c9ab65adf89e26872325bd3f
     name: hub-chart-v2
@@ -84,7 +94,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-23T15:10:49.3040472+02:00"
+    created: "2022-08-23T17:49:43.0309125+02:00"
     description: A Helm chart for Kubernetes
     digest: bbddb9838de69db3c1cd2d63b38781b823fa8cf7b3923be8eb47c172a669c681
     name: hub-chart-v2
@@ -92,4 +102,4 @@ entries:
     urls:
     - hub-chart-v2-0.1.1.tgz
     version: 0.1.1
-generated: "2022-08-23T15:10:49.3017595+02:00"
+generated: "2022-08-23T17:49:43.0288686+02:00"

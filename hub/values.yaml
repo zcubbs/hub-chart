@@ -4,9 +4,6 @@ ingress:
 deployment:
   image: ghcr.io/zcubbs/hub
   tag: main
-app:
-  title: z/HuB
-  disclaimer: z/HuB is a community project, where all your bookmarks are in one place.
 config: |-
   links:
     - caption: Docs
